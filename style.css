@@ -1,9 +1,9 @@
-.navbar-brand {
+.navbar-brand, .navbar-expand-lg, .nav-link {
 	color: white !important;
 }
 
-.nav-link {
-	color: white !important;
+span {
+	color: white;
 }
 
 .nav-link:hover {
@@ -17,4 +17,8 @@
 	height: 500px;
 	color: white;
 	padding-top: 20px;
+}
+
+.btn-lg {
+	width: 100px;
 }
