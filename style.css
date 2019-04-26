@@ -18,7 +18,7 @@ span {
 	color: white;
 }
 
-hr {
+.header hr {
 	background-color: white;
 }
 
@@ -30,6 +30,19 @@ hr {
 	padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
   background-size: cover;
   background-position: center;
+  border: 1px solid grey;
 }
+
+.main a {
+	color: black;
+}
+
+.main a:hover {
+	color: grey;
+	text-decoration: none;
+}
+
+
+
 
 
