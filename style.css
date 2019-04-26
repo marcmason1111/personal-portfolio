@@ -16,7 +16,6 @@ span {
 	background-size: cover;
 	height: 500px;
 	color: white;
-	padding-top: 20px;
 }
 
 hr {
@@ -26,4 +25,11 @@ hr {
 .btn-outline-light {
 	border: 1px solid white;
 }
+
+.aspectRatioBox {
+	padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
+  background-size: cover;
+  background-position: center;
+}
+
 
