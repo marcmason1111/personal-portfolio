@@ -19,6 +19,11 @@ span {
 	padding-top: 20px;
 }
 
-.btn-lg {
-	width: 100px;
+hr {
+	background-color: white;
 }
+
+.btn-outline-light {
+	border: 1px solid white;
+}
+
